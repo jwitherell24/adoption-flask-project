@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
@@ -6,12 +6,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello from Pet Adoption"
+    return render_template("index.html")
 
-
-@app.route("/meow")
-def cat():
-    return "Meow"
 
 
 if __name__ == "__main__":

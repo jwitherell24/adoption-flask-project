@@ -1,14 +1,14 @@
 /* Project Styles */
 
 :root {
-    --primary: #272343;
+    --primary: #0f3305;
     --secondary: #BAE8E8;
     --accent: #FFD803;
     --background: #FFFFFE;
 }
 
 * {
-    font-family: 'Roboto', 'Arial', sans-serif;
+    font-family: 'Times New Roman', 'Arial', sans-serif;
 }
 
 body {
